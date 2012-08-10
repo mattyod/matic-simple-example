@@ -1,5 +1,4 @@
-schema-simple-example
-=====================
+# schema-simple-example
 
 A very simple example project for Schema
 
@@ -12,16 +11,16 @@ and
 
 [Jade](https://github.com/visionmedia/jade)
 
-### Installation
+## Installation
 Then you can download this repository with
 
     git clone https://github.com/mattyod/schema-simple-example.git
 
-### Building the example docs
+## Building the example docs
 Then simply navigate into the newly cloned example folder and run:
 
     schema
 
 You should now have a new folder called 'web' within the sample project. Within this should be a file called simple-example.html, open this with a browser and view the generated documentation.
 
-Please note this particular example is built to work as a simple local flat file system and so paths are not set as they would be if files were hosted on a server. That means you can just double click the generated HTML file and view it in your default browser.
+Please note this particular example is built to work as a simple local flat file system and so paths are not set as they would be if files were hosted on a server. That means you can just double click the generated HTML file and view it in your default browser.ß
