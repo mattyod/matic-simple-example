@@ -1,6 +1,6 @@
 {
   "name": "Simple example",
-  "description": "A very simple example project to use with Schema. Hopefully looking at the structure of this project will assist in beginning to work with Schema and putting together your own project file. It is suggested that you use this project as a start point for understanding how Schema works",
+  "description": "A simple example project to use with Matic. Hopefully looking at the structure of this project will assist in beginning to work with Schema and putting together your own project file. It is suggested that you use this project as a start point for understanding how Schema works",
   "type": "object",
   "properties": {
     "id": {
@@ -42,8 +42,10 @@
         },
         "extraNumber": {
           "title": "An extra number for the object",
-          "description": "Any number you you like can be added here.",
-          "type": "number"
+          "description": "A number between 1 and 10 can be added here.",
+          "type": "number",
+          "minimum": 1,
+          "maximum": 10
         }
       }
     }
