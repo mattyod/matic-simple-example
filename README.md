@@ -1,6 +1,6 @@
 # matic-simple-example
 
-A very simple example project for Matic
+A simple example project for Matic
 
 ## Dependencies
 To build this example you will need to install the following two node packages:
