@@ -48,6 +48,10 @@
           "maximum": 10
         }
       }
+    },
+    "nullThing": {
+      "title": null,
+      "description": null
     }
   }
 }

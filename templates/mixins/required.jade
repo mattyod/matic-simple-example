@@ -1,4 +1,4 @@
 mixin required(obj)
-  if obj.required
+  if obj !== null && obj.required
     span.required(title='required') &#9733;
-  - delete obj.required
+    - delete obj.required

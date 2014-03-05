@@ -9,9 +9,14 @@ mixin dl(obj, parentKey)
         dt
           mixin required(value)
           | "#{key}":
-      if typeof value === 'object'
+      if typeof value === 'object' && value !== null
         dd.new-block
           mixin header(value)
           mixin dl(value, key)
       else
-        dd= value
+        if value == null
+          dd
+            span.null
+              | null
+        else
+          dd= value
