@@ -2,6 +2,9 @@
 
 A simple example project for Matic
 
+## Deprecated
+Please see [Matic-draft4-example](https://github.com/mattyod/matic-draft4-example).
+
 ## Dependencies
 To build this example you will need to install the following two node packages:
 
